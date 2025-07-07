@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Ordenador-portatil-de-Juan",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus14.actions.githubusercontent.com/UsWvb0wG0S3Jpev2NouOQ38wk7lolZyLA78l5H82js8F0snv78/",
+  "gitHubUrl": "https://github.com/jgbplanck/test1",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}

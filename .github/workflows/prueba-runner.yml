@@ -1,0 +1,23 @@
+name: Prueba Self-Hosted Runner
+
+on:
+  push:
+
+jobs:
+  test-runner:
+    runs-on: self-hosted   # 👈 aquí indicamos que use tu runner propio
+    steps:
+      - name: Clonar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Mostrar información del runner
+        run: |
+          echo "Corriendo en $(uname -a)"
+          echo "Usuario: $(whoami)"
+          echo "Fecha y hora: $(date)"
+          echo "Workspace: $PWD"
+
+      - name: Ejecutar script personalizado
+        run: |
+          echo "¡Hola desde mi runner self-hosted!"
+
