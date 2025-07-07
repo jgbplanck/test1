@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "jgbplanck/test1",
+  "pipelineDirectory": "test1",
+  "workspaceDirectory": "test1/test1",
+  "repositories": {
+    "jgbplanck/test1": {
+      "repositoryPath": "test1/test1",
+      "lastRunOn": "07/07/2025 12:50:11 +02:00"
+    }
+  },
+  "lastRunOn": "07/07/2025 12:50:11 +02:00"
+}

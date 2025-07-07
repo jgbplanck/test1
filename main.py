@@ -1,3 +1,4 @@
+#Ejercicio principal
 def vector_maximizado(vector):
     vector_skip = []
     for i in range(0, len(vector)):
